@@ -1,0 +1,65 @@
+.fa-twitter:hover {
+  color: #00aef3; }
+
+.fa-facebook:hover {
+  color: #3b5998; }
+
+.fa-github:hover {
+  color: #4183c4; }
+
+.fa-linkedin:hover {
+  color: #0077b5; }
+
+.fa-instagram:hover {
+  color: #3f729b; }
+
+.fa-list:hover {
+  color: #0f58a8; }
+
+html {
+  font-size: 14px; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    font-family: "Oxygen", sans-serif;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home_sky.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .main-div {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(400%);
+    transform: translateY(400%); } }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 667px) {
+  body {
+    font-family: "Oxygen", sans-serif;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home_sky_mobile.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  .main-div {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(350%);
+    transform: translateY(350%); } }
+
+body {
+  font-family: "Oxygen", sans-serif;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home_sky.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.main-div {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(400%);
+  transform: translateY(400%); }

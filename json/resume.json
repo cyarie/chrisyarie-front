@@ -1,0 +1,46 @@
+{
+  "data": [{
+    "type": "resume",
+    "id": 1,
+    "attributes": {
+      "title": "Chris Yarie's Resume"
+    },
+    "vitals": {
+      "title": "Data Engineer",
+      "employer": "Democratic National Committee",
+      "city": "Arlington",
+      "state": "Virginia",
+      "email": "cyarie@gmail.com",
+      "git": "http://github.com/cyarie"
+    },
+    "experience": [{
+      "title": "Data Engineer",
+      "employer": "Democratic National Committee",
+      "location": "Washington, DC",
+      "start_dt": "Jan 2015",
+      "end_dt": "Current",
+      "description": [{
+        "first": "Lead engineer for the DNC's ongoing Apache Spark development and data pipeline construction",
+        "second": "Worked daily with members of the DNC's data science and digital teams to provide engineering insight into the challenges they face"
+      }]
+    }],
+    "skills": [
+      "Python",
+      "Apache Spark",
+      "Django",
+      "Scala",
+      "Flask",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "SQL",
+      "Vertica",
+      "Go",
+      "AWS",
+      "Political Campaigns",
+      "Git",
+      "Blue State Digital",
+      "Linux"
+    ]
+  }]
+}

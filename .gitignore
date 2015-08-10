@@ -1,0 +1,5 @@
+# Jetbrains stuff
+.idea/
+
+# node_modules/ -- I guess the kids now say to let NPM and package.json handle this
+node_modules/
