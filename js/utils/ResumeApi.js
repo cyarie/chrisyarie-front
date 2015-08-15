@@ -8,7 +8,7 @@ module.exports = {
         req.send(null);
         if (req.status == 200) {
             console.log("Received a request for data");
-            ResumeActions.receiveResumeData(JSON.parse(req.responseText));
+            ResumeActions.receiveData(JSON.parse(req.responseText));
         } else {
             console.log("ERROR");
         }

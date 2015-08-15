@@ -9,5 +9,5 @@ ResumeApi.getResumeData();
 
 React.render(
     <ResumeApp />,
-    document.getElementById("resume-app")
+    document.getElementById("resume")
 );

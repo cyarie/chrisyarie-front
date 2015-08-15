@@ -9,7 +9,8 @@
     "react": "latest",
     "font-awesome": "latest",
     "jquery": "latest",
-    "flux": "latest"
+    "flux": "latest",
+    "underscore": "latest"
   },
   "devDependencies": {
     "browserify": "latest",
@@ -27,7 +28,7 @@
     ]
   },
   "scripts": {
-    "start": "watchify -o js/bundle.js -v -d",
+    "start": "watchify -o js/bundle.js -v -d .",
     "build": "browserify . | uglifyjs -cm > js/bundle.min.js"
   }
 }

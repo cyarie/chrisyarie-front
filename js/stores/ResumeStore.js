@@ -15,6 +15,18 @@ var ResumeStore = _.extend({}, EventEmitter.prototype, {
         return _resume;
     },
 
+    getVitals: function() {
+        return _resume.vitals;
+    },
+
+    getExperience: function() {
+        return _resume.experience
+    },
+
+    getSkills: function() {
+        return _resume.vitals;
+    },
+
     emitChange: function() {
         this.emit("change");
     },
