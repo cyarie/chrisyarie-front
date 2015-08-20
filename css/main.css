@@ -53,12 +53,17 @@ html {
 
 body {
   font-family: "Oxygen", sans-serif;
-  color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/home_sky.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+#section0 {
+  color: white; }
+
+#section1 {
+  color: #ffffff; }
 
 .main-div {
   position: relative;

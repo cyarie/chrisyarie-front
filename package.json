@@ -10,7 +10,8 @@
     "font-awesome": "latest",
     "jquery": "latest",
     "flux": "latest",
-    "underscore": "latest"
+    "underscore": "latest",
+    "fullpage.js": "latest"
   },
   "devDependencies": {
     "browserify": "latest",

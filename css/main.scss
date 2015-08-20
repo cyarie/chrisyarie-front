@@ -55,7 +55,6 @@ html {
 
 body {
   font-family: $f-stack;
-  color: $f-color;
   background:
   linear-gradient(
                   rgba(0, 0, 0, 0.6),
@@ -66,6 +65,14 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#section0 {
+  color: $f-color;
+}
+
+#section1 {
+  color: #ffffff;
 }
 
 .main-div {
